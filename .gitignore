@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLLs
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# OS files
+.DS_Store
+
+# Python packaging
+*.egg-info/
+
+# Logs & tmp
+*.log
+/tmp/
+nohup.out
+
+# Videos and large binaries (keep small demos if needed)
+*.mp4
+*.mov
+
+# Generated frames and images (keep curated outputs)
+llm_robot_demo/frames/
+llm_robot_demo/frames_no_snap/
+llm_robot_demo/frames_simple/
+llm_robot_demo/frames_approach/
+llm_robot_demo/video_frames/
+
+# Cache
+__cache__/
